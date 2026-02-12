@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Navigationbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: linear-gradient(90deg, #ff0000, #00ff00, #0000ff); 
+}
