@@ -5,4 +5,12 @@
 }
 .para {
   color: blue;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  margin: 20px;
+}
+.navi{
+  display: flex;
+  justify-content: space-around;
 }
