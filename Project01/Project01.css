@@ -3,3 +3,28 @@
   padding: 0;
   box-sizing: border-box;
 }
+/* Navigationbar */
+.nav{
+  list-style: none;
+  text-spacing-trim: space-all;
+}
+.uno{
+  display: flex;
+}
+/* seperation box display*/
+.head{
+  border: 2px solid red;
+  height: 50px;
+  width: 1535px;
+  position:relative
+}
+.body{
+  border: 2px solid red;
+  height: 580px;
+  width: 1535px;
+}
+.foot{
+  border: 2px solid red;
+  height: 100px;
+  width: 1535px;
+}
