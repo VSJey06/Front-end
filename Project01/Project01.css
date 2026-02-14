@@ -3,13 +3,28 @@
   padding: 0;
   box-sizing: border-box;
 }
-/* Navigationbar */
-.nav{
-  list-style: none;
-  text-spacing-trim: space-all;
-}
-.uno{
+/* Midsection */
+.con{
+  border: 5px solid aqua;
+  height: 580px;
+  width: 450px;
+  justify-content: center;
   display: flex;
+  flex-wrap: nowrap;
+}
+.par{
+  display: flex;
+  border: 5px solid aqua;
+  height: 580px;
+  width: 450px;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+.in1{
+  font-weight:1px;
+  font-size: medium;
+  font-family: Impact;
+  justify-content: center;
 }
 /* seperation box display*/
 .head{
@@ -22,6 +37,7 @@
   border: 2px solid red;
   height: 580px;
   width: 1535px;
+  justify-items: auto;
 }
 .foot{
   border: 2px solid red;
