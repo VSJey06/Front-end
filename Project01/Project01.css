@@ -10,17 +10,19 @@
   width: 450px;
   justify-content: center;
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap:wrap;
+}
+.img{
+  width: 660px;
+  height:600px;
 }
 .par{
   display: flex;
-  border: 5px solid aqua;
-  height: 580px;
-  width: 450px;
-  flex-wrap: nowrap;
+  width: 500px;
+  flex-wrap: wrap;
   justify-content: center;
 }
-.in1{
+p{
   font-weight:1px;
   font-size: medium;
   font-family: Impact;
@@ -31,13 +33,14 @@
   border: 2px solid red;
   height: 50px;
   width: 1535px;
-  position:relative
 }
 .body{
-  border: 2px solid red;
-  height: 580px;
-  width: 1535px;
-  justify-items: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.body>img{
+  display: flex;
+  flex-wrap: wrap;
 }
 .foot{
   border: 2px solid red;
